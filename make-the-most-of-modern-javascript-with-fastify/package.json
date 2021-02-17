@@ -1,0 +1,14 @@
+{
+  "name": "make-the-most-of-modern-javascript-with-fastify",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "python2 -m SimpleHTTPServer"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fastify": "^3.12.0",
+    "live-server": "^1.2.1",
+    "pino-pretty": "^4.5.0"
+  }
+}
