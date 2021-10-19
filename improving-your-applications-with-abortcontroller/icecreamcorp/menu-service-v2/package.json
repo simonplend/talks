@@ -1,0 +1,17 @@
+{
+  "name": "icecreamcorp-menu-service-v2",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Simon Plenderleith <simon@simonplend.co.uk> (https://simonplend.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.20.2",
+    "node-fetch": "^3.0.0"
+  }
+}

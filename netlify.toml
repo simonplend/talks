@@ -1,0 +1,12 @@
+[build.environment]
+  NODE_VERSION = "14"
+
+[build]
+  base = "improving-your-applications-with-abortcontroller/slides/"
+  publish = "dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

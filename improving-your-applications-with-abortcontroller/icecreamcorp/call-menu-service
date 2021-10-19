@@ -1,0 +1,3 @@
+#! /usr/bin/env fish
+
+for i in (seq 10); curl -s localhost:3000/menu; and echo ""; end
