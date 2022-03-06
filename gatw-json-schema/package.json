@@ -1,0 +1,17 @@
+{
+  "name": "gatw-json-schema",
+  "type": "module",
+  "scripts": {
+    "start:dev": "nodemon",
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.27.2",
+    "pino-pretty": "^7.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
